@@ -1,0 +1,65 @@
+{
+  "name": "proto-pbjs-loader",
+  "version": "1.0.0",
+  "description": "The only webpack loader you need to translate .proto files to ecma modules.",
+  "main": "src",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src test"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "loader",
+    "proto",
+    "protoc",
+    "protobuf",
+    "protobufjs",
+    "ProtoBuf.js"
+  ],
+  "author": "zamarwka <somebody.told@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "protobufjs": "^6.8.0",
+    "schema-utils": "^0.4.2",
+    "tmp-promise": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "chalk": "^2.4.1",
+    "escodegen": "^1.9.0",
+    "eslint": "^6.6.0",
+    "espree": "^3.5.1",
+    "estraverse": "^4.2.0",
+    "glob": "^7.1.2",
+    "inspect-loader": "^1.0.0",
+    "jsdoc": "^3.5.5",
+    "memory-fs": "^0.4.1",
+    "minimist": "^1.2.0",
+    "semantic-release": "^8.2.0",
+    "semver": "^5.4.1",
+    "tmp": "0.0.33",
+    "uglify-js": "^2.8.29",
+    "uglify-loader": "^2.0.0",
+    "webpack": "^3.8.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**.*"
+    ]
+  },
+  "peerDependencies": {
+    "webpack": ">= 3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zamarawka/proto-pbjs-loader.git"
+  }
+}
