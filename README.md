@@ -1,3 +1,5 @@
+[![Ci Status](https://github.com/zamarawka/proto-pbjs-loader/workflows/CI/badge.svg)](https://github.com/zamarawka/proto-pbjs-loader/actions)
+
 # proto-pbjs-loader
 Webpack loader that parses `.proto` files and converts them to a [protobuf.js](https://github.com/dcodeIO/ProtoBuf.js/) modules. It build on top of [protobuf.js CLI](https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript) and could be handy integrate into your current build flow.
 
