@@ -1,4 +1,6 @@
 [![Ci Status](https://github.com/zamarawka/proto-pbjs-loader/workflows/CI/badge.svg)](https://github.com/zamarawka/proto-pbjs-loader/actions)
+[![Node version](https://img.shields.io/node/v/proto-pbjs-loader.svg?style=flat&logo=node.js)](http://nodejs.org/download/)
+[![Npm version](https://img.shields.io/npm/v/proto-pbjs-loader.svg?style=flat&logo=npm)](https://www.npmjs.com/package/proto-pbjs-loader)
 
 # proto-pbjs-loader
 Webpack loader that parses `.proto` files and converts them to a [protobuf.js](https://github.com/dcodeIO/ProtoBuf.js/) modules. It build on top of [protobuf.js CLI](https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript) and could be handy integrate into your current build flow.
